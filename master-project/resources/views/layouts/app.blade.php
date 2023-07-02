@@ -326,7 +326,8 @@
                                 <div class="more_categories">Show more...</div>
                             </div>
                         </div>
-                        <div class="main-menu main-menu-padding-1 main-menu-lh-2 d-none d-lg-block">
+                        {{-- <div class="main-menu main-menu-padding-1 main-menu-lh-2 d-none d-lg-block"> --}}
+                            <div class="main-menu main-menu-padding-1 main-menu-lh-2 d-none d-lg-block">
                             <nav>
                                 <ul>
                                     <li><a class="active" href="/">Home </a></li>
