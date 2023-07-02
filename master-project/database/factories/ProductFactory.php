@@ -18,12 +18,12 @@ class ProductFactory extends Factory
     public function definition(): array
     {
         $product_name = $this->faker->unique()->words($nb=6,$asText = true);
-        $slug = Str::slug($product_name,'-');
+        $slvg = Str::slug($product_name,'-');
         return [
             'name'=>$product_name,
-            'slug'=>$slug,
-            'short_description'=>$this->faker->text(200),
-            'desription'=>$this->faker->text(500),
+            'slvg'=>$slvg,
+            'short_descripstion'=>$this->faker->text(200),
+            'descripstion'=>$this->faker->text(500),
             'regular_price'=>$this->faker->numberBetween(10,500),
             'SKU'=>'PRD' . $this->faker->unique()->numberBetween(100,500),
             'stock_status'=>'instock',
